@@ -19,7 +19,7 @@ flags: ["multimodal"]
 
 Google's Gemini-powered coding assistant for IDEs and the terminal, sold per seat to teams and enterprises.
 
-**Important:** as of June 18, 2026, the free individual tier is no longer served by the IDE extensions, Gemini CLI, or the GitHub app. Google routes individuals to [Google Antigravity](/plans/antigravity/), which has a free Individual plan. Paid Standard/Enterprise licenses are unaffected.
+**Important:** as of June 18, 2026, the free individual tier is no longer served by the IDE extensions, Gemini CLI, or the GitHub app. Google routes individuals to [Google Antigravity](https://awesome-coding-plans.netlify.app/plans/antigravity/), which has a free Individual plan. Paid Standard/Enterprise licenses are unaffected.
 
 ### Plans
 
