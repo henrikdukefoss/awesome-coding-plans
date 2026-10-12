@@ -1,8 +1,8 @@
 ---
 title: "Perch AI"
-price: "Free"
-models: "Qwen 3.6/3.8, GLM 5/5.2, Kimi K2.5-K2.7, Grok 4.6, MiniMax M3"
-quota: "Free up to $20/mo; Pro $10/mo up to $150/mo with Roost"
+price: "$10/mo"
+models: "Claude Sonnet 5.5/Haiku 5.5, GPT-6.1 Sol, GPT-6 Sol/Luna, GPT-5.6 family, GLM 5.3, Kimi K3, Grok 4.6, Qwen 3.8, DeepSeek V4, MiniMax M3"
+quota: "Starter free 20,000 PT/mo (~$20); Pro $10/mo Early Access (list $20) up to $150/mo"
 website: "https://www.perchai.app/"
 bestFor: "Model-agnostic users wanting smart routing across models"
 type: "Paid"
@@ -22,18 +22,18 @@ Model-agnostic AI assistant with smart routing ("Roost"). Every premium model fo
 
 ### Models
 
-**Starter (Free):**
-- Qwen 3.6, GLM 5, Kimi K2.5, Gemma 4, MiniMax M2.7, MiniMax M3
+**Starter (Free, 20,000 PT/mo):**
+- Laguna S 2.1, DeepSeek V4.1 Flash, GLM 5.3 Flash (+ promo Qwen 3.8 Max/Flash thru Oct 13, 2026)
 
-**Pro (adds):**
-- Grok 4.6, Qwen 3.8 Flash, GLM 5.2, DeepSeek V4 Flash (both context variants), Kimi K2.7 Code, Kimi K2.6, MiniMax M3, Qwen 3.8 27B, Nemotron Ultra, Nemotron 3.5 Lightning, Qwen 3.7 Plus, DeepSeek V4 Pro, Inkling
+**Pro (adds premium registry):**
+- Claude Sonnet 5.5 + Haiku 5.5, GPT-6.1 Sol, GPT-6 Sol/Luna, GPT-5.6 Sol/Terra/Luna, GLM 5.3, Kimi K3, Grok 4.6, Qwen 3.8 Max/Flash, DeepSeek V4 Pro, MiniMax M3, Nemotron, Inkling
 
 ### Plans
 
 | Tier | Price | Included Usage | Notes |
 |------|-------|----------------|-------|
-| **Starter** | Free | Up to $20/mo | No credit card |
-| **Pro** | $10/mo (early access) | Up to $150/mo | Fair-use Roost routing + $75 manual selection |
+| **Starter** | Free | 20,000 PT/mo (~$20) | No credit card |
+| **Pro** | $10/mo Early Access (list $20, locked while subscribed) | Up to $150/mo: Roost fair-use (5,000 PT/5h, 20,000 PT/7d) + manual pins (15,000 PT/5h, 37,500 PT/7d, 75,000 PT/period ~$75) | Fair-use Roost routing + manual selection |
 | **Enterprise** | Custom | Custom | Volume pricing, shared workspaces |
 
 ### Key Features

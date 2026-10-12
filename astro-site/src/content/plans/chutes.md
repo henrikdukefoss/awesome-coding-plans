@@ -1,8 +1,8 @@
 ---
 title: "Chutes"
-price: "$3-$20/mo"
-models: "GLM-4.7/5.x, Kimi K2.5, DeepSeek V3.2, Qwen3/3.5, MiniMax M2.5+"
-quota: "$3-$20/mo; ~5x PAYGO value/month, 3-10% off PAYGO"
+price: "$10/mo"
+models: "GLM-5.x, Kimi K2.6/K3, DeepSeek V3.2/V4 Flash, Qwen3.5/3.8, MiniMax M2.5+"
+quota: "Plus $10/mo, Pro $20/mo; daily request quota + 6-10% off PAYGO (Base $3 discontinued)"
 website: "https://chutes.ai/pricing"
 bestFor: "Budget users wanting cheapest decentralized AI inference"
 type: "Paid"
@@ -24,17 +24,17 @@ Decentralized AI inference with optional subscription tiers. Known for cheapest 
 
 | Tier | Models |
 |------|--------|
-| **Base ($3)** | GLM-4.7, MiniMax M2.5, Qwen3-235B, GPT-OSS-120B, and smaller models |
-| **Plus ($10)** | GLM-5, GLM-5.1, GLM-5.2, Kimi K2.5, DeepSeek V3.2, Qwen3.5, MiniMax M2.5+ |
-| **Pro ($20)** | Same as Plus with larger quota |
+| **Plus ($10)** | GLM-5/5.1/5.2, Kimi K2.6/K3, DeepSeek V3.2/V4-Flash, Qwen3.5/3.8, MiniMax M2.5+ |
+| **Pro ($20)** | Same as Plus with larger daily quota |
+
+> Base tier discontinued — only Plus and Pro are offered.
 
 ### Plans
 
 | Tier | Price | Quota Model | PAYGO Discount |
 |------|-------|-------------|----------------|
-| **Base** | $3/mo | ~5x PAYGO value/month | 3% off PAYGO |
-| **Plus** | $10/mo | ~5x PAYGO value/month | 6% off PAYGO |
-| **Pro** | $20/mo | ~5x PAYGO value/month | 10% off PAYGO |
+| **Plus** | $10/mo | Bundled daily request quota | 6% off PAYGO |
+| **Pro** | $20/mo | Larger daily request quota | 10% off PAYGO |
 
 ### Key Features
 - **TEE (Trusted Execution Environment)** — confidential compute

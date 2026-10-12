@@ -4,6 +4,11 @@
 exclude = [
   "https://x.com/.*",
   "https://twitter.com/.*",
+  "https://education.github.com/.*",
+  "https://openai.com/pricing",
+  "https://claude.ai/",
+  "https://chatgpt.com/students/2026/",
+  "https://www.perplexity.ai/students",
 ]
 
 # Retry failed requests

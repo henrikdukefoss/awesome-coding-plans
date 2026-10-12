@@ -6,10 +6,10 @@ quotaModel: "Mixed"
 bestForTags: ["solo", "api"]
 modelAccess: "Multi-model"
 flags: ["multimodal"]
-updated: "2026-09-03"
+updated: "2026-10-12"
 website: "https://docs.fireworks.ai/firepass"
-models: "kimi-k3-fast and other open-weight models (when active)"
-quota: "Discontinued; V1 $7/wk, V2 $49/mo, V3 TBA"
+models: "kimi-fast-latest (Kimi K3 Fast, 1.04M ctx); enabled routes vary"
+quota: "Not open to new subscriptions; existing/promo passes active"
 bestFor: "Developers wanting zero per-token costs on open-weight models"
 ---
 
@@ -17,7 +17,7 @@ bestFor: "Developers wanting zero per-token costs on open-weight models"
 
 **Website:** [docs.fireworks.ai/firepass](https://docs.fireworks.ai/firepass)
 
-> ⚠️ **Discontinued** — Fire Pass has been sunsetted. Version 3 is being prepared with no ETA.
+> ⚠️ **Not currently open to new subscriptions** — Fire Pass is experimental. Existing users and promo recipients can continue.
 
 Flat-rate access to Fireworks' inference platform with no per-token charges on select models.
 
@@ -25,16 +25,15 @@ Flat-rate access to Fireworks' inference platform with no per-token charges on s
 
 | Model | Notes |
 |-------|-------|
-| `kimi-k3-fast` | Zero per-token cost with Fire Pass |
-| Other open-weight models | Covered while pass is active |
+| `kimi-fast-latest` (Kimi K3 Fast, 1.04M ctx, up to 131K output) | Zero per-token cost with Fire Pass; dedicated `fpk_...` key |
+| Other open-weight models | Covered while pass is active; enabled routes vary |
 
 ### Historical Pricing
 
 | Version | Price | Model | Status |
 |---------|-------|-------|--------|
-| V1 | $7/wk (~$28/mo) | Kimi K2.5 Turbo | Discontinued |
-| V2 | $49/mo (invite-only) | Kimi K2.6 Turbo | Discontinued |
-| V3 | TBA | TBA | Coming soon |
+| V1 | $7/wk (~$28/mo) | Kimi K2.5 Turbo | Historical, closed |
+| V2 | $49/mo (invite-only) | Kimi K2.6 Turbo | Historical, closed |
 
 ### Key Features (when available)
 - **Zero per-token costs** on included open-weight models

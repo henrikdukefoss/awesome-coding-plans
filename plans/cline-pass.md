@@ -6,10 +6,10 @@ quotaModel: "Mixed"
 bestForTags: ["solo", "agent", "ide"]
 modelAccess: "Multi-model"
 flags: ["open-source", "byok"]
-updated: "2026-09-03"
+updated: "2026-10-12"
 website: "https://cline.bot/cline-pass"
-models: "GLM-5.x, Kimi K2.6-K3, DeepSeek V4, MiMo V2.5, MiniMax M3, Qwen3.x"
-quota: "$9.99/mo ($4.99 first month); 2-5x standard API rate limits"
+models: "GLM-5.x, Kimi K2.6-K3, DeepSeek V4, MiMo V2.5, MiniMax M3, Qwen3.x, Muse Spark"
+quota: "$9.99/mo; 2-5x standard API rate limits; processing fee may apply"
 bestFor: "Cline agent users wanting higher limits on open-weight models"
 ---
 
@@ -42,7 +42,7 @@ Subscription exclusively for the Cline coding agent. 2-5x standard API rate limi
 
 | Tier | Price | Quota |
 |------|-------|-------|
-| **Cline Pass** | $9.99/mo ($4.99 first month) | 2-5x standard API rate limits |
+| **Cline Pass** | $9.99/mo (standard rate; processing fee may apply) | 2-5x standard API rate limits |
 
 ### Key Features
 - **Cline-only** — works in VS Code, JetBrains, CLI

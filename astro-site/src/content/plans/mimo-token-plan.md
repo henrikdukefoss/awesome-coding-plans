@@ -1,7 +1,7 @@
 ---
 title: "MiMo Token Plan"
 price: "$6-$100/mo"
-models: "MiMo V2.5 Pro (text), MiMo V2.5 (multimodal), ASR, TTS models"
+models: "MiMo V2.6 Pro/Flash/UltraSpeed (V2.5 until Oct 21 2026), ASR/TTS"
 quota: "$6-$100/mo; 4.1B-82B credits; no weekly/5h caps"
 website: "https://mimo.mi.com/pricing"
 bestFor: "API-heavy users wanting transparent credit-based MiMo access"
@@ -18,14 +18,19 @@ flags: ["multimodal"]
 
 **Website:** [mimo.mi.com](https://mimo.mi.com/pricing) | **Docs:** [Token Plan Docs](https://mimo.mi.com/docs/en-US/price/token-plan)
 
-Xiaomi's coding subscription for AI programming scenarios. Uses a transparent Credit system across the MiMo V2.5 model family.
+Xiaomi's coding subscription for AI programming scenarios. Uses a transparent Credit system across the MiMo model family.
+
+> MiMo V2.5 (Pro + base) deprecated Oct 21 2026, auto-routes to V2.6 from Oct 14. Current flagships: V2.6 Pro / Flash / UltraSpeed.
 
 ### Models
 
 | Model | Type | Context |
 |-------|------|---------|
-| `mimo-v2.5-pro` | Flagship reasoning (text) | 1M |
-| `mimo-v2.5` | Multimodal (text + image) | 1M |
+| `mimo-v2.6-pro` | Flagship reasoning (text) | 1M |
+| `mimo-v2.6-flash` | Fast multimodal | 1M |
+| `mimo-v2.6-pro-ultraspeed` | Fastest reasoning | 1M |
+| `mimo-v2.5-pro` | Legacy (until Oct 21 2026) | 1M |
+| `mimo-v2.5` | Legacy multimodal (until Oct 21 2026) | 1M |
 | `mimo-v2.5-asr` | Speech recognition | — |
 | `mimo-v2.5-tts` | Text-to-speech | — |
 | `mimo-v2.5-tts-voiceclone` | Voice cloning TTS | — |

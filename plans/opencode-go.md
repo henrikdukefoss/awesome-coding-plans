@@ -6,10 +6,10 @@ quotaModel: "Mixed"
 bestForTags: ["solo", "cli", "agent", "heavy"]
 modelAccess: "Multi-model"
 flags: ["open-source"]
-updated: "2026-09-03"
+updated: "2026-10-12"
 website: "https://opencode.ai"
-models: "Grok 4.6, GLM-5.3, Kimi K3, Qwen3.8 Max, DeepSeek V4, MiniMax M3"
-quota: "$10/mo; $12/5h, $30/week, $60/month dollar-based limits"
+models: "Grok 4.7/4.6, GLM-5.3, Kimi K3/K2.7, Qwen3.8 Max/Flash, DeepSeek V4.1, MiniMax M3, GPT 6 Luna, Haiku 5.5"
+quota: "$10/mo Go; $40/mo Go Plus; per-model monthly caps, 5h 20% / week 50%"
 bestFor: "CLI users wanting one subscription for many frontier models"
 ---
 
@@ -24,20 +24,21 @@ Multi-model aggregator subscription — one plan, access to many frontier models
 
 | Model | Provider |
 |-------|----------|
-| Grok 4.6 | xAI |
-| GLM-5.3 | Zhipu AI |
-| GLM-5.3-Flash | Zhipu AI |
-| Kimi K3 | Moonshot AI |
-| Qwen3.8 Max | Alibaba |
-| DeepSeek V4 | DeepSeek |
+| Grok 4.7 / 4.6 | xAI |
+| GLM-5.3 / 5.3-Flash | Zhipu AI |
+| Kimi K3 / K2.7 Code | Moonshot AI |
+| Qwen3.8 Max / Flash | Alibaba |
+| DeepSeek V4.1 Flash / Pro | DeepSeek |
 | MiniMax M3 | MiniMax |
-| LongCat-2.0 | — |
+| GPT 6 Luna, Claude Haiku 5.5, MiMo-V2.6 | Various |
+| LongCat 2.5 / Step 5 Preview | Included preview |
 
 ### Plan
 
 | Tier | Price | Limits |
 |------|-------|--------|
-| **Go** | $10/mo | $12/5h, $30/week, $60/month |
+| **Go** | $10/mo | Per-model monthly caps (e.g. Kimi K3 $15, DeepSeek V4.1 Flash $60); 5h 20%, week 50% |
+| **Go Plus** | $40/mo | Higher per-model caps (e.g. Kimi K3 $60, DeepSeek V4.1 Flash $120) |
 
 > Dollar-based limits (not credits). Usage deducted at each model's pay-as-you-go rate.
 

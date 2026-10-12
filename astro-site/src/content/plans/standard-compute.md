@@ -1,8 +1,8 @@
 ---
 title: "Standard Compute"
-price: "$19/mo"
-models: "Claude Opus 5, GPT-5.6 Sol, Gemini 3.1 Pro, GLM 5.2, Kimi K3"
-quota: "$19-$2,499/mo; ~$65-$9,300/mo compute budget; no token meter"
+price: "$269/mo"
+models: "Frontier + open via smart routing (GPT-5.6, Claude 5, Gemini, DeepSeek, Qwen, Kimi, GLM)"
+quota: "$19/$39/$89/$249/$499 per mo; $20/$41/$95/$269/mo compute budget; no token meter"
 website: "https://standardcompute.com/coding-subscription"
 bestFor: "Heavy users wanting flat-rate access to all frontier models"
 type: "Paid"
@@ -24,20 +24,18 @@ Flat-rate subscription with access to ALL frontier models via smart routing. No 
 
 | Category | Models |
 |----------|--------|
-| **Frontier** | Claude Opus 5, GPT-5.6 Sol, Gemini 3.1 Pro |
-| **Open** | GLM 5.2, Kimi K3, MiniMax M3, DeepSeek V4 |
+| **Frontier** | Claude 5 family, GPT-5.6 family, Gemini |
+| **Open** | GLM, Kimi, MiniMax, DeepSeek, Qwen |
 
 ### Plans
 
 | Tier | Price | Compute Budget | Notes |
 |------|-------|----------------|-------|
-| **Economy** | $19/mo | ~$65/mo of API work | Entry tier |
-| **Standard** | $39/mo | ~$130/mo of API work | Parallel agents, 4% bonus |
-| **Pro** | $89/mo | ~$310/mo of API work | Priority scheduling, 6% bonus |
-| **Pro+** | $249/mo | ~$880/mo of API work | Highest priority, 8% bonus |
-| **Business** | $499/mo | ~$1,800/mo | Unlimited API keys |
-| **Growth** | $999/mo | ~$3,700/mo | Region selection (EU/US) |
-| **Enterprise** | $2,499/mo | ~$9,300/mo | Priority support |
+| **Starter** | $19/mo | $20/mo ($30 first month) | Entry tier, does ~$60 of API work |
+| **Economy** | $39/mo | $41/mo ($61 first month) | Parallel agents, does ~$130 of API work |
+| **Standard** | $89/mo | $95/mo ($142 first month) | Does ~$310 of API work |
+| **Pro** | $249/mo | $269/mo ($403 first month) | Priority scheduling, does ~$880 of API work |
+| **Pro Plus** | $499/mo | Custom | Unlimited API keys, EU/US regions |
 
 ### Key Features
 - **No token meter** — fixed monthly compute budget

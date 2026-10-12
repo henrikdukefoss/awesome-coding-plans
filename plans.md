@@ -2,7 +2,7 @@
 
 > Individual plan deep-dives. For overview and quick picks, see [README.md](README.md).
 
-*Last updated: September 3, 2026*
+*Last updated: October 12, 2026*
 
 Each plan file carries the catalog metadata used by the website: plan type (`Free`, `Paid`, or `Freemium`), price range, quota model, model access, best-for tags, and special flags.
 
@@ -21,11 +21,11 @@ Each plan file carries the catalog metadata used by the website: plan type (`Fre
 
 | Plan | Price | Models | Best For |
 |------|-------|--------|----------|
-| [Chutes](plans/chutes.md) | $3/mo | 13+ open | Cheapest PAYG |
+| [Chutes](plans/chutes.md) | $10/mo | 13+ open | Plus tier, daily quota |
 | [MiMo Token Plan](plans/mimo-token-plan.md) | $6/mo | 6 models | No weekly/5h caps |
 | [Qwen Token Plan](plans/qwen-token-plan.md) | ~$6/mo | 5+ models | Multi-model |
 | [Step Plan](plans/step-plan.md) | $6.99/mo | 4+ models | Multimodal |
-| [Trae Lite](plans/trae-pro.md) | $3/mo | Multi-model | AI-native IDE entry |
+| [Trae Lite](plans/trae-pro.md) | $8/mo | Multi-model | AI-native IDE entry |
 | [Cline Pass](plans/cline-pass.md) | $9.99/mo | 14 open | Cline users |
 
 ## Mid-Range Plans ($10-$20)
@@ -36,7 +36,7 @@ Each plan file carries the catalog metadata used by the website: plan type (`Fre
 | [Amazon Q Developer](plans/amazon-q-developer.md) | Free / $19/mo | Claude via AWS | AWS IDE + CLI |
 | [Perch AI](plans/perch-ai.md) | $10/mo | 15+ models | Smart routing |
 | [OpenCode Go](plans/opencode-go.md) | $10/mo | 24 models | Best value |
-| [Trae Pro](plans/trae-pro.md) | $10/mo | Multi-model | SOLO mode, unlimited autocomplete |
+| [Trae Pro](plans/trae-pro.md) | $20/mo | Multi-model | SOLO mode, unlimited autocomplete |
 | [NanoGPT](plans/nanogpt.md) | $12/mo | 4+ models | 1000+ via PAYGO |
 | [Kimi Code](plans/kimi-code.md) | ¥49 (~$7) | K3 (256K) | K3 flagship access |
 | [Mistral Vibe](plans/mistral-vibe.md) | $14.99/mo | 7 models | European AI |
@@ -60,7 +60,7 @@ Each plan file carries the catalog metadata used by the website: plan type (`Fre
 | [Replit Agent](plans/replit-agent.md) | Free / $20/mo | Frontier via credits | Build apps from prompts |
 | [MiniMax Token Plan](plans/minimax-token-plan.md) | $22/mo | 5+ models | Multimodal |
 | [Synthetic](plans/synthetic.md) | $30/mo | 16 open | Privacy |
-| [Fireworks Fire Pass](plans/fireworks-fire-pass.md) | Discontinued | Kimi K3 | Was flat-rate, sunsetted |
+| [Fireworks Fire Pass](plans/fireworks-fire-pass.md) | Closed to new subs | Kimi K3 | Existing passes active |
 | [Augment Code](plans/augment-code.md) | $100/mo | Context engine | Large codebases, up to 50 seats |
 
 ## Special

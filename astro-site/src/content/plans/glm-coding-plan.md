@@ -1,7 +1,7 @@
 ---
 title: "GLM Coding Plan"
 price: "$18-$168/mo"
-models: "GLM-5.3, GLM-5.3-Flash, GLM-5.2/5.1, GLM-4.7"
+models: "GLM-5.3, GLM-5.3-Flash (older IDs auto-routed)"
 quota: "$18-$168/mo; 2K-28K credits/5h, 10K-140K credits/week"
 website: "https://z.ai/subscribe"
 bestFor: "Solo devs wanting flagship GLM models with tiered quotas"
@@ -26,8 +26,8 @@ Zhipu AI's subscription for coding agents. All tiers get the same flagship model
 |-------|------|-------|
 | `GLM-5.3` | Flagship coding | Latest, SOTA open-source |
 | `GLM-5.3-Flash` | Fast multimodal | Native vision support |
-| `GLM-5.2 / 5.1` | Auto-routed to GLM-5.3 | Backward compatible |
-| `GLM-4.7` | Auto-routed to GLM-5.3-Flash | Backward compatible |
+| `GLM-5.2 / 5.1` | Legacy alias, routes to GLM-5.3 | Backward compatible |
+| `GLM-4.7` | Legacy alias, routes to GLM-5.3-Flash | Backward compatible |
 
 ### Bundled MCP Tools
 - Vision Understanding

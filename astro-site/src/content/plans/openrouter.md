@@ -1,8 +1,8 @@
 ---
 title: "OpenRouter"
 price: "Free"
-models: "300+ models including hy3, minimax-m2.5, qwen3-coder (free)"
-quota: "Free 50 reqs/day on select models; PAYG at list price"
+models: "500+ models (25+ free); free 50 reqs/day, 1,000/day after $10 credits"
+quota: "Free 50 reqs/day (20/min); PAYG at list price + 5.5%/8% platform fee"
 website: "https://openrouter.ai"
 bestFor: "Devs wanting one API endpoint for hundreds of models"
 type: "Freemium"
@@ -17,26 +17,27 @@ flags: ["byok", "multimodal"]
 
 **Website:** [openrouter.ai](https://openrouter.ai)
 
-Multi-model API gateway with select models free (limited). Access 300+ models through one endpoint.
+Multi-model API gateway with select models free (limited). Access 500+ models across 80+ providers through one endpoint.
 
-### Free Models (50 reqs/day)
+### Free Models (50 reqs/day, 20/min; 1,000/day after $10 credits)
 
 | Model | Provider |
 |-------|----------|
 | `hy3-preview` | Tencent |
 | `minimax-m2.5` | MiniMax |
 | `qwen3-coder` | Alibaba |
-| And more rotating selection | |
+| And more rotating selection (25+ free) | |
 
 ### Plans
 
 | Tier | Price | Notes |
 |------|-------|-------|
-| **Free** | $0 | 50 requests/day on select models |
-| **PAYG** | Per-token | All 300+ models at list price |
+| **Free** | $0 | 50 requests/day (20/min) on select models; 1,000/day after $10 credits |
+| **PAYG Standard** | Per-token + 5.5% platform fee | All 500+ models at list price |
+| **PAYG Business** | Per-token + 8% platform fee | Higher limits, SSO |
 
 ### Key Features
-- **One API, 300+ models** — OpenAI-compatible endpoint
+- **One API, 500+ models** — OpenAI-compatible endpoint
 - **Free tier** — 50 req/day on select models, good for testing
-- **No markup** — pay provider list price
+- **No inference markup** — pay provider list price + platform fee on credit purchases
 - **Auto-routing** — fallback between providers

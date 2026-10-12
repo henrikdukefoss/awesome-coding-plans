@@ -6,10 +6,10 @@ quotaModel: "Mixed"
 bestForTags: ["team", "enterprise", "ide", "heavy"]
 modelAccess: "Frontier"
 flags: ["multimodal"]
-updated: "2026-09-03"
+updated: "2026-10-12"
 website: "https://augmentcode.com/pricing"
 models: "Frontier models via context engine; model-agnostic coding assistant"
-quota: "$100/mo flat for up to 50 seats; usage pooled across team"
+quota: "Standard $20/mo $20 pooled; Business $100/mo $100 pooled; ≤50 seats flat, Enterprise custom"
 bestFor: "Enterprise teams needing codebase-aware AI coding with flat pricing"
 ---
 
@@ -23,6 +23,7 @@ AI coding assistant with context engine that understands your entire codebase. B
 
 | Tier | Price | Usage | Seats | Notes |
 |------|-------|-------|-------|-------|
+| **Standard** | $20/mo flat | $20/mo included | Up to 50 | Entry team tier, same features as Business |
 | **Business** | $100/mo flat | $100/mo included | Up to 50 | No per-seat charge, pooled usage |
 | **Enterprise** | Custom | Custom | Unlimited | SSO, CMEK, dedicated support |
 

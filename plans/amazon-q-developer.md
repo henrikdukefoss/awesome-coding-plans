@@ -8,9 +8,9 @@ modelAccess: "Single"
 flags: []
 website: "https://aws.amazon.com/q/developer/pricing/"
 models: "Latest Claude models via AWS"
-quota: "Free 50 agentic requests/mo; Pro raises limits, 4,000 LOC/mo transformations"
+quota: "Free 50 agentic req/mo; Pro 1,000 agentic req/mo, 4,000 LOC/mo pooled + $0.003/LOC overage"
 bestFor: "AWS teams wanting agentic coding inside IDEs, CLI, and CI"
-updated: "2026-09-04"
+updated: "2026-10-12"
 ---
 
 # Amazon Q Developer
@@ -33,7 +33,7 @@ Latest Claude models served through AWS.
 ### Quotas
 
 - Free: 50 agentic requests/month, 1,000 LOC/month Java transformation
-- Pro: increased agentic limits (exact number unpublished), 4,000 LOC/month/user pooled at account level
+- Pro: 1,000 agentic requests (chat interactions)/month, 4,000 LOC/month/user pooled at account level
 
 ### Tools
 

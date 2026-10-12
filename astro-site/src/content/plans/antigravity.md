@@ -1,8 +1,8 @@
 ---
 title: "Google Antigravity"
 price: "Free"
-models: "Gemini 3.x Flash/Pro, Claude Sonnet & Opus 4.6, GPT-OSS-120B"
-quota: "Free tier with basic weekly rate limits; Pro/Ultra add generous limits"
+models: "Gemini 3.x Flash/Pro, Claude Sonnet 5.5, GPT-OSS-120B (removal Nov 2 2026)"
+quota: "Free tier w/ weekly limits; Google AI Pro ~$20/mo; Ultra $100/mo (5x) or $200/mo (20x)"
 website: "https://antigravity.google/"
 bestFor: "Agent-first IDE for autonomous coding with multi-model access"
 type: "Free"
@@ -27,16 +27,16 @@ Google's agentic development platform. Now generally available with free tier an
 | `Gemini 3.7 Flash` | Google |
 | `Gemini 3.6 Flash` | Google |
 | `Gemini 3.1 Pro` | Google |
-| `Claude Sonnet & Opus 4.6` | Anthropic |
-| `GPT-OSS-120B` | OpenAI |
+| `Claude Sonnet 5.5` | Anthropic |
+| `GPT-OSS-120B` | OpenAI (removal Nov 2, 2026) |
 
 ### Plans
 
 | Tier | Price | Notes |
 |------|-------|-------|
 | **Individual (Free)** | $0 | Unlimited Tab/Command, basic weekly rate limits |
-| **Google AI Pro** | — | More generous rate limits, flexible AI credit pool |
-| **Google AI Ultra** | — | Highest access to latest Gemini models |
+| **Google AI Pro** | $19.99/mo | More generous rate limits, flexible AI credit pool (overage-only credits) |
+| **Google AI Ultra** | $99.99–$100/mo (5x Pro) / $199.99–$200/mo (20x Pro) | Highest access to latest Gemini models; shared Gemini quota |
 | **Organization** | via Google Cloud | Gemini Enterprise Agent Platform integration |
 
 ### Key Features

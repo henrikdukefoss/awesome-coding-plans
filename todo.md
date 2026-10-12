@@ -1,6 +1,12 @@
 # TODO
 
-Last updated: September 4, 2026
+Last updated: October 12, 2026
+
+## Completed (October 12, 2026 verification pass)
+
+- Re-verified all 33 plans against official pricing pages; every `plans/*.md` now carries `updated: "2026-10-12"`.
+- Major updates: Trae ($8/$20/$60/$200 restructure), Chutes Base discontinued, Standard Compute tier rename, Claude 5.5 models + Max API credits, Codex Pro $100/$200/$500 + GPT-6, OpenCode Go Plus $40, Qwen monthly credits, Windsurf/Devin rebrand note, Perch model registry, Command Code exact credits, Kilo Pass section, Kimi Vivace tier, Copilot student reopening.
+- README.md, plans.md, and `/changelog` updated; `npm run check` 0 errors, `npm run build` generates 33 plan pages, `dist/plans.json` updated 2026-10-12.
 
 ## Completed
 

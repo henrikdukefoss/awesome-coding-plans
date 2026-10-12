@@ -27,13 +27,14 @@ Free Claude Pro (includes Claude Code) at partner universities.
 
 **Website:** [education.github.com/pack](https://education.github.com/pack)
 
-Free Copilot for verified students. ⚠️ **New sign-ups paused since April 2026** — existing users keep it.
+Free Copilot for verified students. Sign-ups reopened June 17, 2026.
 
 | What You Get | Value |
 |-------------|-------|
 | Unlimited code completions | — |
-| AI Credits for chat & agent | — |
+| 200 monthly AI credits for chat & agent | — |
 | Auto model selection | — |
+| Upgrade path to Pro/Pro+ | — |
 
 **Eligibility:** Age 13+, enrolled in degree/diploma program. Apply at [education.github.com/pack](https://education.github.com/pack).
 
@@ -63,7 +64,7 @@ Free Copilot for verified students. ⚠️ **New sign-ups paused since April 202
 |-------|-------|---------|
 | **ChatGPT Plus free** | $80 value (4 x $20) | 4 months free for eligible US college students |
 
-**Eligibility:** Full-time or part-time students at eligible US institutions. Claim by October 31.
+**Eligibility:** Full-time or part-time students at eligible US institutions. Claim by October 31, 2026 (SheerID verification, payment method may be required).
 
 ---
 
@@ -114,7 +115,7 @@ The old program gave 1 year free Cursor Pro via SheerID. Existing users keep the
 | Service | Student Price | Requires |
 |---------|--------------|----------|
 | **Claude for Education** | Free Pro | Partner university email |
-| **GitHub Copilot** | Free | Student verification (paused for new sign-ups) |
+| **GitHub Copilot** | Free | Student verification |
 | **Google AI Pro** | Free 1 year | US college student |
 | **ChatGPT Plus** | Free 4 months | US college student |
 | **Kiro** | Free 1 year | 11 partner universities |
@@ -124,4 +125,4 @@ The old program gave 1 year free Cursor Pro via SheerID. Existing users keep the
 
 ---
 
-*Last updated: September 3, 2026. Always verify on official websites before subscribing.*
+*Last updated: October 12, 2026. Always verify on official websites before subscribing.*

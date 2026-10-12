@@ -6,10 +6,10 @@ quotaModel: "Mixed"
 bestForTags: ["solo", "team", "ide", "agent"]
 modelAccess: "Aggregator"
 flags: ["open-source", "byok", "offline"]
-updated: "2026-09-03"
+updated: "2026-10-12"
 website: "https://kilo.ai/pricing"
 models: "Works with any AI model via BYOK or Kilo-managed inference"
-quota: "Free for individuals; Teams $15/user/mo; Enterprise custom"
+quota: "Free $0; Teams $15/user/mo; Enterprise custom; Kilo Pass from $19/mo (1:1 credits + bonus)"
 bestFor: "Open-source coding assistant users needing team governance"
 ---
 
@@ -26,6 +26,12 @@ Open-source AI coding assistant. Platform is free for individuals; Teams and Ent
 | **Free** | $0 | Open source VS Code, JetBrains & CLI extensions. AI usage billed separately. |
 | **Teams** | $15/user/mo | Usage analytics, shared BYOK, team management, priority support |
 | **Enterprise** | Custom | SSO, audit logs, SLA, dedicated support |
+
+### Kilo Pass (subscription credits)
+
+| Tier | Price | Notes |
+|------|-------|-------|
+| **Kilo Pass** | From $19/mo | Converts 1:1 to paid credits + free bonus credits up to 40% monthly / 50% annual; expires month-end; 5% credit-purchase fee |
 
 ### Key Features
 - **Open source** — free forever for individuals

@@ -1,10 +1,10 @@
 ---
 title: "Qwen Token Plan"
-price: "$6-$68/mo"
-models: "Qwen3.8-Max/Flash, DeepSeek V4 Pro, Qwen3.7-Plus, GLM"
-quota: "$6-$68/mo; 2,500-40,000 credits/7 days; 50% night discount"
+price: "$68/mo"
+models: "Qwen3.8-Max (0902), Qwen3.8-Flash, DeepSeek V4 Pro, Kimi-K3, GLM-5.2 + vision/image/audio"
+quota: "Lite ¥39/$6 – Pro ¥499/$68/mo; monthly credits; 60% night discount from 22:00"
 website: "https://docs.qwencloud.com/coding-plan/overview"
-bestFor: "Budget users wanting Qwen and partner models with weekly credits"
+bestFor: "Budget users wanting Qwen and partner models with monthly credits"
 type: "Paid"
 priceRange: "Budget"
 quotaModel: "Credits"
@@ -24,22 +24,23 @@ Alibaba Cloud's credit-based plan for AI coding. Access to Qwen, DeepSeek, GLM, 
 
 | Model | Type |
 |-------|------|
-| `Qwen3.8-Max` | Flagship (GA) |
+| `Qwen3.8-Max (0902)` | Flagship |
 | `qwen3.8-flash` | Fast model |
 | `deepseek-v4-pro-0813` | DeepSeek flagship |
-| `qwen3.7-plus` | Vision model |
+| `kimi-k3` | Moonshot flagship |
+| `glm-5.2` | Zhipu AI model |
 | `qwen-image-3.0-pro` | Image generation |
-| `GLM` | Zhipu AI model |
+| Vision / audio families | Multimodal |
 
-### Plans
+### Plans (Token Plan, monthly credits)
 
-| Tier | Price | Credits/7 days | Concurrent Agents |
-|------|-------|----------------|-------------------|
-| **Lite** | ~$6/mo | 2,500 | 1-2 |
-| **Standard** | ~$18/mo | 10,000 | 3-4 |
-| **Pro** | ~$68/mo | 40,000 | 6-8 |
+| Tier | Price | Credits/mo | Concurrent Agents |
+|------|-------|-----------|-------------------|
+| **Lite** | ¥39 (~$6)/mo | 11,500 | 1-2 |
+| **Standard** | ¥139/mo | 45,000 | 3-4 |
+| **Pro** | ¥499 (~$68)/mo | 180,000 | 6-8 |
 
-> **Night discount:** 50% off-peak usage. Credits refresh every 7 days.
+> **Night discount:** 60% off (40% rate) from 22:00 on Qwen3.8-Max/Flash. Old request-based Lite plan discontinued Apr 2026.
 
 ### Supported Tools
 OpenClaw, Claude Code, OpenCode, Cursor, Codex, Qwen Code, QwenPaw, Cherry Studio, Chatbox, Cline, Qoder, Lingma, Kilo CLI, Hermes Agent.

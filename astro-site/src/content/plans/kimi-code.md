@@ -38,6 +38,7 @@ Moonshot AI's coding subscription featuring the K3 flagship model (2.8T paramete
 | **Moderato** | ¥99/mo | Yes (256K) | No | No | 2x |
 | **Allegretto** | ¥199/mo | Yes (1M) | Yes | Yes | 4x |
 | **Allegro** | ¥699/mo | Yes (1M) | Yes | Yes | 10x |
+| **Vivace (US store)** | $199/mo | Yes (1M) | Yes | Yes | 720 agent credits, 4 concurrent |
 
 ### Key Features
 - **Agent Swarm** — multi-agent collaboration (Moderato+)

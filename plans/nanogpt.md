@@ -6,10 +6,10 @@ quotaModel: "Mixed"
 bestForTags: ["solo", "api", "light"]
 modelAccess: "Aggregator"
 flags: ["byok"]
-updated: "2026-09-03"
+updated: "2026-10-12"
 website: "https://nano-gpt.com/pricing"
-models: "GLM 5, Kimi K2.5, MiniMax M2.7, DeepSeek V3.2 (subscription)"
-quota: "$12/mo covers 4 flagships; PAYG from $0.10 for 1000+ models"
+models: "Rotating: GLM 5.x, Kimi K2.5/K3, MiniMax M2.7, DeepSeek V3.2/V4 (check live endpoint)"
+quota: "$12/mo: 60M input tokens/wk, 100 images/day, 5% discount; PAYG from $0.10"
 bestFor: "Budget API users wanting 1000+ models at list prices"
 ---
 
@@ -20,20 +20,20 @@ bestFor: "Budget API users wanting 1000+ models at list prices"
 
 Multi-model API gateway with optional subscription. 1000+ models accessible through one API key.
 
-### Subscription Models
+### Subscription Models (rotating — check live `GET /api/subscription/v1/models?detailed=true`)
 
 | Model | Provider |
 |-------|----------|
-| GLM 5 | Zhipu AI |
-| Kimi K2.5 | Moonshot AI |
+| GLM 5.x | Zhipu AI |
+| Kimi K2.5 / K3 | Moonshot AI |
 | MiniMax M2.7 | MiniMax |
-| DeepSeek V3.2 | DeepSeek |
+| DeepSeek V3.2 / V4 | DeepSeek |
 
 ### Plan
 
 | Tier | Price | Included Models | Notes |
 |------|-------|-----------------|-------|
-| **Subscription** | $12/mo | 4 flagship open models | Weekly input token limits, burst rate limits |
+| **Subscription** | $12/mo | Rotating flagships | 60M input tokens/wk (resets Mon 00:00 UTC), 100 images/day, 5% text-model discount; 2x-multiplier models count double; balance used after limits |
 | **PAYG** | From $0.10 | All 1000+ models | No markup on list prices |
 
 ### Key Features
