@@ -13,6 +13,7 @@ const plans = defineCollection({
     type: z.enum(["Free", "Paid", "Freemium"]).default("Paid"),
     priceRange: z.enum(["Free", "Budget", "Mid", "Premium", "Enterprise"]).default("Premium"),
     quotaModel: z.enum(["Credits", "Tokens", "Requests", "Sessions", "Unlimited", "Mixed"]).default("Mixed"),
+    updated: z.string().default(""),
     bestForTags: z.array(z.string()).default([]),
     modelAccess: z.enum(["Single", "Multi-model", "Aggregator", "Frontier"]).default("Multi-model"),
     flags: z.array(z.string()).default([]),

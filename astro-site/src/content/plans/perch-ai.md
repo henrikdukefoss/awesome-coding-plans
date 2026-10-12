@@ -11,6 +11,7 @@ quotaModel: "Mixed"
 bestForTags: ["solo", "api", "heavy"]
 modelAccess: "Aggregator"
 flags: ["byok", "open-source"]
+updated: "2026-10-12"
 ---
 
 # Perch ai

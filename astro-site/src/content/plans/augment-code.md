@@ -11,6 +11,7 @@ quotaModel: "Mixed"
 bestForTags: ["team", "enterprise", "ide", "heavy"]
 modelAccess: "Frontier"
 flags: ["multimodal"]
+updated: "2026-10-12"
 ---
 
 # Augment Code

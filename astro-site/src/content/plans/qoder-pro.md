@@ -11,6 +11,7 @@ quotaModel: "Credits"
 bestForTags: ["solo", "agent", "ide", "heavy"]
 modelAccess: "Single"
 flags: ["multimodal"]
+updated: "2026-10-12"
 ---
 
 # Qoder Pro

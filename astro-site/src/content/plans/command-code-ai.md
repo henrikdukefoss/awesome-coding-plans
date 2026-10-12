@@ -11,6 +11,7 @@ quotaModel: "Credits"
 bestForTags: ["solo", "api", "agent", "heavy"]
 modelAccess: "Aggregator"
 flags: ["byok", "multimodal"]
+updated: "2026-10-12"
 ---
 
 # Command code ai

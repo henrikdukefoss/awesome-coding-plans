@@ -11,6 +11,7 @@ quotaModel: "Mixed"
 bestForTags: ["solo", "api", "multimodal", "heavy"]
 modelAccess: "Multi-model"
 flags: ["multimodal"]
+updated: "2026-10-12"
 ---
 
 # Minimax token plan

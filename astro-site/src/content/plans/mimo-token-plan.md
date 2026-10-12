@@ -11,6 +11,7 @@ quotaModel: "Credits"
 bestForTags: ["solo", "heavy", "api"]
 modelAccess: "Single"
 flags: ["multimodal"]
+updated: "2026-10-12"
 ---
 
 # Mimo token plan

@@ -25,7 +25,7 @@ function parseFrontmatter(content) {
 
 function quote(value) { return JSON.stringify(value || ""); }
 function serialize(data) {
-  return `---\ntitle: ${quote(data.title)}\nprice: ${quote(data.price)}\nmodels: ${quote(data.models)}\nquota: ${quote(data.quota)}\nwebsite: ${quote(data.website)}\nbestFor: ${quote(data.bestFor)}\ntype: ${quote(data.type || "Paid")}\npriceRange: ${quote(data.priceRange || "Premium")}\nquotaModel: ${quote(data.quotaModel || "Mixed")}\nbestForTags: [${(data.bestForTags || []).map(quote).join(", ")}]\nmodelAccess: ${quote(data.modelAccess || "Multi-model")}\nflags: [${(data.flags || []).map(quote).join(", ")}]\n---\n\n`;
+  return `---\ntitle: ${quote(data.title)}\nprice: ${quote(data.price)}\nmodels: ${quote(data.models)}\nquota: ${quote(data.quota)}\nwebsite: ${quote(data.website)}\nbestFor: ${quote(data.bestFor)}\ntype: ${quote(data.type || "Paid")}\npriceRange: ${quote(data.priceRange || "Premium")}\nquotaModel: ${quote(data.quotaModel || "Mixed")}\nbestForTags: [${(data.bestForTags || []).map(quote).join(", ")}]\nmodelAccess: ${quote(data.modelAccess || "Multi-model")}\nflags: [${(data.flags || []).map(quote).join(", ")}]\nupdated: ${quote(data.updated)}\n---\n\n`;
 }
 
 // Ensure output directory exists

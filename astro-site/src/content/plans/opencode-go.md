@@ -11,6 +11,7 @@ quotaModel: "Mixed"
 bestForTags: ["solo", "cli", "agent", "heavy"]
 modelAccess: "Multi-model"
 flags: ["open-source"]
+updated: "2026-10-12"
 ---
 
 # Opencode go

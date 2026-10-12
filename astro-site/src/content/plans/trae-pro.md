@@ -11,6 +11,7 @@ quotaModel: "Mixed"
 bestForTags: ["solo", "ide", "agent"]
 modelAccess: "Multi-model"
 flags: ["multimodal"]
+updated: "2026-10-12"
 ---
 
 # Trae Pro

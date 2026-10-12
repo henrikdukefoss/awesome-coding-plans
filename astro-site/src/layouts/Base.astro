@@ -1,5 +1,6 @@
 ---
 import { getCollection } from "astro:content";
+import { formatLong, latestPlanUpdate } from "../lib/dates";
 
 interface Props {
   title?: string;
@@ -8,7 +9,10 @@ interface Props {
 
 const { title = "Awesome Coding Plans", description = "Compare AI coding plans by price, models, quota, tools, and student discounts." } = Astro.props;
 const currentPath = Astro.url.pathname;
-const planCount = (await getCollection("plans")).length;
+const allPlans = await getCollection("plans");
+const planCount = allPlans.length;
+const latestUpdated = latestPlanUpdate(allPlans.map((plan) => plan.data.updated));
+const siteUpdated = latestUpdated ? formatLong(latestUpdated) : "";
 ---
 
 <!doctype html>
@@ -51,7 +55,7 @@ const planCount = (await getCollection("plans")).length;
       <main class="main" id="main">
         <slot />
       </main>
-      <footer class="site-footer"><span>Awesome Coding Plans · verified October 12, 2026</span><span><a href="/llms.txt">For agents</a> · <a href="/changelog">Changelog</a> · <a href="https://github.com/vaproh/awesome-coding-plans">Source</a></span></footer>
+      <footer class="site-footer"><span>Awesome Coding Plans · verified {siteUpdated}</span><span><a href="/llms.txt">For agents</a> · <a href="/changelog">Changelog</a> · <a href="https://github.com/vaproh/awesome-coding-plans">Source</a></span></footer>
     </div>
 
     <script>

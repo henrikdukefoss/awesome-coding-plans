@@ -11,6 +11,7 @@ quotaModel: "Credits"
 bestForTags: ["solo", "multimodal", "ide"]
 modelAccess: "Single"
 flags: ["multimodal"]
+updated: "2026-10-12"
 ---
 
 # Step plan

@@ -11,6 +11,7 @@ quotaModel: "Mixed"
 bestForTags: ["solo", "api", "light"]
 modelAccess: "Aggregator"
 flags: ["byok"]
+updated: "2026-10-12"
 ---
 
 # Nanogpt

@@ -11,6 +11,7 @@ quotaModel: "Mixed"
 bestForTags: ["solo", "team", "api", "heavy"]
 modelAccess: "Multi-model"
 flags: ["offline", "open-source", "multimodal"]
+updated: "2026-10-12"
 ---
 
 # Ollama Pro

@@ -11,6 +11,7 @@ quotaModel: "Credits"
 bestForTags: ["solo", "team", "agent", "student"]
 modelAccess: "Multi-model"
 flags: ["student-discount"]
+updated: "2026-10-12"
 ---
 
 # Replit Agent

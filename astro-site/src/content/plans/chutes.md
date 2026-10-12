@@ -11,6 +11,7 @@ quotaModel: "Mixed"
 bestForTags: ["solo", "api", "heavy"]
 modelAccess: "Multi-model"
 flags: ["open-source", "byok"]
+updated: "2026-10-12"
 ---
 
 # Chutes

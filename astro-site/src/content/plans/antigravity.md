@@ -11,6 +11,7 @@ quotaModel: "Mixed"
 bestForTags: ["agent", "ide", "student"]
 modelAccess: "Multi-model"
 flags: ["multimodal"]
+updated: "2026-10-12"
 ---
 
 # Google Antigravity

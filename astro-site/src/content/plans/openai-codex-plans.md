@@ -11,6 +11,7 @@ quotaModel: "Mixed"
 bestForTags: ["solo", "agent", "ide", "heavy"]
 modelAccess: "Frontier"
 flags: ["multimodal", "student-discount"]
+updated: "2026-10-12"
 ---
 
 # Openai codex plans

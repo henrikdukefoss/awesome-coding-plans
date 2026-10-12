@@ -11,6 +11,7 @@ quotaModel: "Requests"
 bestForTags: ["solo", "api", "light"]
 modelAccess: "Multi-model"
 flags: ["open-source", "byok"]
+updated: "2026-10-12"
 ---
 
 # NVIDIA NIM

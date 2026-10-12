@@ -11,6 +11,7 @@ quotaModel: "Credits"
 bestForTags: ["solo", "api", "light"]
 modelAccess: "Multi-model"
 flags: ["open-source", "multimodal"]
+updated: "2026-10-12"
 ---
 
 # Qwen token plan

@@ -11,6 +11,7 @@ quotaModel: "Unlimited"
 bestForTags: ["solo", "heavy", "agent", "api"]
 modelAccess: "Frontier"
 flags: ["open-source"]
+updated: "2026-10-12"
 ---
 
 # Standard compute

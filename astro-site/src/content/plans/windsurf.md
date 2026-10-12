@@ -11,6 +11,7 @@ quotaModel: "Mixed"
 bestForTags: ["solo", "team", "ide", "agent"]
 modelAccess: "Multi-model"
 flags: ["multimodal", "student-discount"]
+updated: "2026-10-12"
 ---
 
 # Windsurf

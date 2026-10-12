@@ -1,11 +1,13 @@
 ---
 import Base from "../layouts/Base.astro";
 import { getCollection } from "astro:content";
+import { formatShort, latestPlanUpdate } from "../lib/dates";
 
 const plans = await getCollection("plans");
 const sortedPlans = plans.sort((a, b) => a.data.title.localeCompare(b.data.title));
 const countType = (type: string) => plans.filter((plan) => plan.data.type === type).length;
 const siteUrl = "https://awesome-coding-plans.netlify.app";
+const heroVerified = formatShort(latestPlanUpdate(plans.map((plan) => plan.data.updated)));
 ---
 
 <Base title="Awesome Coding Plans | AI Coding Plan Comparison" description={`Compare ${plans.length} AI coding subscriptions and token plans by price, model access, quota, tools, and special features.`}>
@@ -18,7 +20,7 @@ const siteUrl = "https://awesome-coding-plans.netlify.app";
       <div><strong data-count={plans.length}>{plans.length}</strong><small>plans tracked</small></div>
       <div><strong data-count={countType("Free")}>{countType("Free")}</strong><small>free tiers</small></div>
       <div><strong data-count={countType("Freemium")}>{countType("Freemium")}</strong><small>freemium</small></div>
-      <div><strong>09/04/26</strong><small>last verified</small></div>
+      <div><strong>{heroVerified}</strong><small>last verified</small></div>
     </div>
   </section>
 

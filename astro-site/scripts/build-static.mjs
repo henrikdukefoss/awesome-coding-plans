@@ -26,6 +26,7 @@ function parseFrontmatter(content) {
 
 const escapeHtml = (value = "") => String(value).replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;");
 const inferPrice = (body) => (body.match(/\$[\d.]+(?:-\$?[\d.]+)?\/mo|￥[\d.]+\/mo|Free|Discontinued/) || ["See plan details"])[0];
+const formatDate = (iso) => iso ? new Date(`${iso}T00:00:00Z`).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" }) : "See plan details";
 
 // Get all plan markdown files
 const files = readdirSync(sourceDir).filter((f) => f.endsWith(".md") && f !== "student-discounts-freebies.md");
@@ -49,7 +50,7 @@ for (const file of files) {
   const websiteMatch = body.match(/\[.*?\]\((https?:\/\/[^\)]+)\)/);
   const website = data.website || (websiteMatch ? websiteMatch[1] : "");
 
-  catalog.push({ slug, title, type: data.type || "Paid", price: data.price || inferPrice(body), priceRange: data.priceRange || "Premium", quotaModel: data.quotaModel || "Mixed", models: data.models || "", quota: data.quota || "", bestFor: data.bestFor || "", bestForTags: data.bestForTags || [], modelAccess: data.modelAccess || "Multi-model", flags: data.flags || [], website, updated: data.updated || "2026-09-03" });
+  catalog.push({ slug, title, type: data.type || "Paid", price: data.price || inferPrice(body), priceRange: data.priceRange || "Premium", quotaModel: data.quotaModel || "Mixed", models: data.models || "", quota: data.quota || "", bestFor: data.bestFor || "", bestForTags: data.bestForTags || [], modelAccess: data.modelAccess || "Multi-model", flags: data.flags || [], website, updated: data.updated || "" });
 
   // Remove the first heading from content
   const contentWithoutTitle = body.replace(/^#\s+.+\n\n/, "");
@@ -57,7 +58,8 @@ for (const file of files) {
   // Convert markdown to HTML
   const htmlContent = marked.parse(contentWithoutTitle);
 
-  // Replace template placeholders
+  // Replace template placeholders ({{UPDATED}} falls back to the site-wide
+  // latest date, resolved after the loop; {{SITE_UPDATED}} likewise)
   let page = template
     .replace(/{{TITLE}}/g, title)
     .replace(/{{SLUG}}/g, slug)
@@ -67,21 +69,32 @@ for (const file of files) {
     .replace(/{{PRICE_RANGE}}/g, escapeHtml(data.priceRange || "Premium"))
     .replace(/{{MODEL_ACCESS}}/g, escapeHtml(data.modelAccess || "Multi-model"))
     .replace(/{{PRICE}}/g, escapeHtml(data.price || inferPrice(body)))
-    .replace(/{{UPDATED}}/g, escapeHtml(data.updated || "September 3, 2026"))
+    .replace(/{{UPDATED}}/g, `{{PLAN_UPDATED:${data.updated || ""}}}`)
     .replace(/{{PLAN_COUNT}}/g, String(files.length))
     .replace(/{{QUOTA}}/g, escapeHtml(data.quota || "See plan details"))
     .replace(/{{QUOTA_MODEL}}/g, escapeHtml(data.quotaModel || "Mixed"))
     .replace(/{{BEST_FOR}}/g, escapeHtml(data.bestFor || "AI coding"))
     .replace(/{{TAGS}}/g, (Array.isArray(data.bestForTags) ? data.bestForTags : []).map((tag) => `<span class="badge">${escapeHtml(tag)}</span>`).join(""));
 
-  // Write the file
+  // Write the file (date placeholders resolved below once the site-wide latest is known)
   mkdirSync(join(distDir, "plans", slug), { recursive: true });
   writeFileSync(join(distDir, "plans", slug, "index.html"), page);
   generated++;
 }
 
 console.log(`Generated ${generated} plan pages`);
-const latestUpdated = catalog.map((plan) => plan.updated).sort().at(-1);
+const latestUpdated = catalog.map((plan) => plan.updated).filter(Boolean).sort().at(-1) ?? "";
+for (const entry of catalog) if (!entry.updated) entry.updated = latestUpdated;
+const siteUpdated = formatDate(latestUpdated);
+
+// Second pass: resolve per-plan and site-wide verification dates in written pages
+for (const { slug } of catalog) {
+  const pagePath = join(distDir, "plans", slug, "index.html");
+  const page = readFileSync(pagePath, "utf-8")
+    .replace(/{{PLAN_UPDATED:([^}]*)}}/g, (_, iso) => escapeHtml(formatDate(iso || latestUpdated)))
+    .replace(/{{SITE_UPDATED}}/g, escapeHtml(siteUpdated));
+  writeFileSync(pagePath, page);
+}
 writeFileSync(join(distDir, "plans.json"), JSON.stringify({ updated: latestUpdated, plans: catalog }, null, 2));
 const sitemapPath = join(distDir, "sitemap-0.xml");
 try {

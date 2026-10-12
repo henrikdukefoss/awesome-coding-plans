@@ -11,6 +11,7 @@ quotaModel: "Requests"
 bestForTags: ["solo", "api", "heavy"]
 modelAccess: "Multi-model"
 flags: ["open-source", "offline"]
+updated: "2026-10-12"
 ---
 
 # Synthetic

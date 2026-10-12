@@ -11,6 +11,7 @@ quotaModel: "Credits"
 bestForTags: ["solo", "team", "ide", "student"]
 modelAccess: "Multi-model"
 flags: ["student-discount", "multimodal"]
+updated: "2026-10-12"
 ---
 
 # Github copilot

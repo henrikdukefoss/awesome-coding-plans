@@ -11,6 +11,7 @@ quotaModel: "Mixed"
 bestForTags: ["solo", "agent", "cli", "heavy"]
 modelAccess: "Single"
 flags: ["multimodal"]
+updated: "2026-10-12"
 ---
 
 # Kimi code
