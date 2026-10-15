@@ -11,7 +11,7 @@ quotaModel: "Credits"
 bestForTags: ["solo", "heavy", "agent", "api"]
 modelAccess: "Frontier"
 flags: ["open-source"]
-updated: "2026-10-13"
+updated: "2026-10-15"
 ---
 
 # Standard compute
@@ -19,7 +19,7 @@ updated: "2026-10-13"
 
 **Website:** [standardcompute.com](https://standardcompute.com/coding-subscription)
 
-Flat-rate subscription with access to frontier and open models via smart routing. No token meter, no session windows. Each plan has a fixed monthly compute budget in USD; requests run at full speed until it is used, then stop until renewal or an upgrade.
+Flat-rate subscription with access to frontier and open models via smart routing. No 5-hour or weekly windows. Each plan has a fixed monthly compute budget in USD, and each request draws it down at the model's per-token rate; requests run at full speed until it is used, then stop until renewal or an upgrade.
 
 ### Models (smart-routed)
 
@@ -37,15 +37,15 @@ Flat-rate subscription with access to frontier and open models via smart routing
 | **Economy** | $39/mo | $41/mo ($61 first month) | Parallel agents |
 | **Standard** | $89/mo | $95/mo ($142 first month) | Priority lane |
 | **Pro** | $249/mo | $269/mo ($403 first month) | Highest priority scheduling |
-| **Pro Plus** (business) | $499/mo | $549/mo | Unlimited API keys; Growth $999 and Scale $2,499 above it |
+| **Pro Plus** (business) | $499/mo | $549/mo | No cap on API keys; Growth $999 and Scale $2,499 above it |
 
 ### Key Features
-- **No token meter** — fixed monthly compute budget, shown live in the dashboard
+- **Fixed monthly compute budget in USD** — each request is counted at the model's per-token rate; usage shown live in the dashboard
 - **No 5-hour windows, no weekly caps**
-- **Stops at budget, no overage** — requests return HTTP 402 until renewal or an upgrade (smart pacing was retired on Oct 8, 2026)
-- **Smart routing** — picks a model per request, or pin up to five models
+- **Stops at budget, no overage** — requests return HTTP 402 until renewal or an upgrade; optional Pay as you go top-ups on Economy and above (smart pacing was retired on Oct 8, 2026)
+- **Smart routing** — the `standardcompute` model sends each step to the cheapest capable model, or pin an exact model
 - **OpenAI- and Anthropic-compatible API** — `https://api.stdcmpt.com/v1`; Claude Code via `/v1/messages`, Codex via `/v1/responses`, OpenCode via models.dev
-- **Europe/US inference region rules** per key, team or company
+- **Opt-in Europe/US Compliance rules** per key, team or company
 - **7-day fair refund** — cancel in first week, pay only for compute used
 - **$0.25 trial compute** for eligible new accounts, no card needed
 
